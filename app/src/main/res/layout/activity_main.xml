@@ -32,7 +32,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/appBar"
-        android:hint="@string/message_theme" />
+        android:autofillHints="textShortMessage"
+        android:hint="@string/message_theme"
+        android:inputType="text" />
 
     <EditText
         android:id="@+id/editTextMessage"
@@ -40,6 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextTheme"
         android:layout_marginTop="8dp"
+        android:autofillHints="textCapSentences"
         android:hint="@string/message_text"
         android:inputType="textMultiLine"
         android:maxLines="4" />
