@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab6</string>
+    <string name="delete">Delete</string>
+    <string name="message_theme">Theme</string>
+    <string name="message_text">Message text</string>
+    <string name="choose_date_and_time">Choose date and time</string>
+    <string name="save_reminder">Save reminder</string>
+    <string name="reminder_name">Reminder name</string>
+    <string name="reminder_date">01/01/2026 12:00</string>
+    <string name="reminder_message">Lorem ipsum…</string>
+</resources>
